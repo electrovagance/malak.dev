@@ -1,11 +1,14 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 const ContactPage = () => {
     return (
-        <div id="contact">
-            <h1>Contact me</h1>
-            {/* TODO: Contact Form */}
-        </div>
+        <Layout>
+            <div id="contact">
+                <h1>Contact me</h1>
+                {/* TODO: Contact Form */}
+            </div>
+        </Layout>
     )
 }
 
