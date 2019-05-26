@@ -1,17 +1,64 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import navStyles from './navigation.module.scss'
 
 const Header = () => {
     return (
-        <header>
-            <h1>Malak Tayeh</h1>
+        <header className={navStyles.header}>
+            <h1>
+                <Link to="/" className={navStyles.title}>Malak Tayeh</Link>
+            </h1>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/blog">Blog</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/todayilearned">Today I Learned</Link>
-                <Link to="/contact">Contact</Link>
+                <ul className={navStyles.navList}>
+                    <li>
+                        <Link 
+                        to="/" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        to="/about" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        to="/blog" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            Blog
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        to="/projects" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        to="/todayilearned" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            TIL
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        to="/contact" 
+                        className={navStyles.navItem} 
+                        activeClassName={navStyles.activeNavItem}>
+                            Contact
+                        </Link>
+                    </li>
+                </ul>
             </nav>
         </header>
         

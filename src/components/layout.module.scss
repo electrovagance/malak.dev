@@ -1,0 +1,20 @@
+/* RGB */
+$gunmetal: rgba(45, 49, 66, 1);
+$black-coral: rgba(79, 93, 117, 1);
+$silver: rgba(191, 192, 192, 1);
+$white: rgba(255, 255, 255, 1);
+$light-red-ochre: rgba(239, 131, 84, 1);
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}

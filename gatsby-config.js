@@ -5,5 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `gatsby-plugin-sass`
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Roboto Mono', 'Merriweather Sans', 'Crimson Text']
+        }
+      }
+    }
+  ]
 }
