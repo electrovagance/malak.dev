@@ -12,7 +12,6 @@ module.exports = {
     instagram: 'http://instagram.com/tenshi.jpeg',
     twitter: 'https://twitter.com/',
     github: 'https://github.com/electrovagance'
-
   },
   plugins: [
     {
