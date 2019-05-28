@@ -5,6 +5,15 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Malak Tayeh',
+    author: 'Malak Tayeh',
+    linkedIn: 'https://www.linkedin.com/in/malaktayeh/',
+    instagram: 'http://instagram.com/tenshi.jpeg',
+    twitter: 'https://twitter.com/',
+    github: 'https://github.com/electrovagance'
+
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-sass`
