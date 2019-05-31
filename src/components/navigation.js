@@ -12,6 +12,7 @@ const Header = () => {
         }
       }
     `)
+    
     return (
         <header className={navStyles.header}>
             <h1>

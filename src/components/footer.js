@@ -12,6 +12,7 @@ const Footer = () => {
         }
       }
     `)
+
     return (
         <footer>
             <p>Powered by <a 
