@@ -1,6 +1,6 @@
 ---
 title: 'I love Gatsby!'
-date: '2019-06-01'
+date: 'June 1, 2019'
 ---
 
 # Why Gatsby is awesome

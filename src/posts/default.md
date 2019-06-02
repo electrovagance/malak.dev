@@ -1,6 +1,6 @@
 ---
 title: "Template"
-date: "2019-05-30"
+date: "May 30, 2019"
 ---
 
 Default page
