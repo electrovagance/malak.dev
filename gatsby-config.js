@@ -25,7 +25,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-sass`
+      resolve: 'gatsby-plugin-sass'
+    },
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
     },
     {
       resolve: 'gatsby-plugin-web-font-loader',
