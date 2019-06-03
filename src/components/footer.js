@@ -14,7 +14,7 @@ const Footer = () => {
     `)
 
     return (
-        <footer>
+        <footer className={footerStyles.footer}>
             <p>Powered by <a 
                 className={footerStyles.link}
                 target="_blank" 

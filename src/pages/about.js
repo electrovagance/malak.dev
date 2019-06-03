@@ -12,9 +12,9 @@ const AboutPage = () => {
                     <h3>Resume</h3>
                     <Button>Download</Button>
                 </div>
-                <div>
+                {/* <div>
                     <img alt="Malak Tayeh" src="/../src/img/profile-pic.jpg"/>
-                </div>
+                </div> */}
                 
             </div>
         </Layout>

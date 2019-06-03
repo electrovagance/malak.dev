@@ -5,7 +5,7 @@ const ProjectPage = () => {
     return (
         <Layout>
             <div id="projects">
-                <h1>Projects</h1>
+                <h1>Projects <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">⭐️</span></h1>
             </div>
         </Layout>
     )
