@@ -27,7 +27,6 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sass'
     },
-    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -35,6 +34,24 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-relative-images'
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 450,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {

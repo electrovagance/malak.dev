@@ -1,0 +1,43 @@
+/* RGB */
+$gunmetal: rgba(45, 49, 66, 1);
+$black-coral: rgba(79, 93, 117, 1);
+$silver: rgba(191, 192, 192, 1);
+$white: rgba(255, 255, 255, 1);
+$light-red-ochre: rgba(239, 131, 84, 1);
+
+
+/*
+Style created with help from: https://fvsch.com/styling-buttons/
+Thank you!
+*/ 
+
+.button {
+    background-color: white;
+    color: $gunmetal;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    /* create a small space when buttons wrap on 2 lines */
+    margin: 2px 0;
+
+    /* invisible border (will be colored on hover/focus) */
+    border: solid 1px transparent;
+    border-radius: 4px;
+
+    /* size comes from text & padding (no width/height) */
+    padding: 0.5em 1em;
+
+    /* make sure colors have enough contrast! */
+    color: #ffffff;
+    background-color: $gunmetal;
+
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: $gunmetal;
+  border-color: currentColor;
+  background-color: white;
+}
