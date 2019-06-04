@@ -1,6 +1,10 @@
+/* RGB */
+$gunmetal: rgba(45, 49, 66, 1);
+
 .link {
     text-decoration: none;
     cursor: pointer;
+    color: $gunmetal;
 }
 
 .footer {
