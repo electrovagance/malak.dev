@@ -24,6 +24,7 @@ module.exports = {
     github: 'https://github.com/electrovagance'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {

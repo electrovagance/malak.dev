@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Head from '../components/head'
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -27,6 +28,7 @@ const BlogPage = () => {
 
     return (
         <Layout>
+          <Head title="Blog" />
             <div id="blog">
                 <h1><span role="img" aria-labelledby="jsx-a11y/accessible-emoji">📙</span> Blog</h1>
                 <div>

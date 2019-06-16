@@ -1,10 +1,13 @@
 import React from 'react'
+
 import Layout from '../components/layout'
 import Button from '../components/defaultbutton'
+import Head from '../components/head'
 
 const AboutPage = () => {
     return (
         <Layout>
+            <Head title="About" />
             <div id="about">
                 <div>
                     <h1>About me <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">👩‍💻</span></h1>
