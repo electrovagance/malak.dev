@@ -5,7 +5,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-    font-family: 'Merriweather Sans', 'Crimson Text', 'Roboto Mono';
+    font-family: 'Source Sans Pro','Merriweather Sans', 'Crimson Text', 'Roboto Mono', sans-serif;
   }
   
   *, *:before, *:after {
@@ -16,7 +16,7 @@ html {
     color: black;
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-weight: 400;
   }
   
   ol, ul {

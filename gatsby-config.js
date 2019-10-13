@@ -64,7 +64,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Roboto Mono', 'Merriweather Sans', 'Crimson Text']
+          families: ['Source Sans Pro', 'Merriweather Sans', 'Crimson Text']
         }
       }
     }
