@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import blogStyles from '../styles/blog.module.scss'
+import blogStyles from './styles/blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
 const BlogPage = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import navStyles from './navigation.module.scss'
+import navStyles from './styles/navigation.module.scss'
 
 const Header = () => {
     const data = useStaticQuery(graphql`

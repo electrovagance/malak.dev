@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from './navigation'
 import Footer from './footer'
-import '../styles/index.scss'
-import layoutStyles from './layout.module.scss'
+import '../index.scss'
+import layoutStyles from './styles/layout.module.scss'
 
 const Layout = (props) => {
     return(

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
-import contactStyles from '../styles/contact.module.scss'
+import contactStyles from './styles/contact.module.scss'
 
 import { IconContext } from "react-icons"
 import { FaTwitter, FaGithub, FaLinkedinIn, FaInstagram, FaAngellist, FaCodepen } from 'react-icons/fa'     
