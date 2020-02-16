@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import blogStyles from './blog.module.scss'
+import blogStyles from '../styles/blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
 const BlogPage = () => {
@@ -30,7 +30,7 @@ const BlogPage = () => {
         <Layout>
           <Head title="Blog" />
             <div id="blog">
-                <h1><span role="img" aria-labelledby="jsx-a11y/accessible-emoji">📙</span> Blog</h1>
+                <h2><span role="img" aria-labelledby="jsx-a11y/accessible-emoji">📙</span> Blog</h2>
                 <div>
                   <ol className={blogStyles.posts}>
                       {

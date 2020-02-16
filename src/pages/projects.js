@@ -8,7 +8,7 @@ const ProjectPage = () => {
         <Layout>
             <Head title="Projects" />
             <div id="projects">
-                <h1>Projects <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">⭐️</span></h1>
+                <h2>Projects <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">⭐️</span></h2>
             </div>
         </Layout>
     )

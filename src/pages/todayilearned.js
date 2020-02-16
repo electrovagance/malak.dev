@@ -8,7 +8,7 @@ const TodayILearned = () => {
         <Layout>
             <Head title="Today I learned" />
             <div id="til">
-                <h1>Today I learned <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">💡</span></h1>
+                <h2>Today I learned <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">💡</span></h2>
                 {/* TODO: Array of TodayILearned posts */}
             </div>
         </Layout>
