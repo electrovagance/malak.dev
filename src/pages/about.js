@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Button from '../components/defaultbutton'
 import Head from '../components/head'
 
 const AboutPage = () => {
@@ -11,14 +10,11 @@ const AboutPage = () => {
             <div id="about">
                 <div>
                     <h1>About me <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">👩‍💻</span></h1>
-                    <p>I am a self-directed learner who enjoys creating dynamic and beautiful web apps in my freetime.</p>
+                    <p>I am a self-directed learner who enjoys the challenge of creating dynamic and beautiful web apps in my freetime.</p>
+                    <p></p>
                     <h3>Resume</h3>
-                    <Button>Download</Button>
-                </div>
-                {/* <div>
-                    <img alt="Malak Tayeh" src="/../src/img/profile-pic.jpg"/>
-                </div> */}
-                
+                    <p>For all the HR Managers out there, here is my <a href="https://api.swiftcv.com/public/resume-pdf?handle=tenshi" target="_#">resume</a>.</p>
+                </div>                
             </div>
         </Layout>
     )

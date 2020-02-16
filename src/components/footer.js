@@ -21,7 +21,7 @@ const Footer = () => {
                 href="https://www.gatsbyjs.org/"
                 rel="noopener noreferrer">
                      Gatsby</a>
-                 . {data.site.siteMetadata.title} © 2019.</p>
+                 . {data.site.siteMetadata.title} © 2020.</p>
         </footer>
     )
 }
