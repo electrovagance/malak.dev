@@ -18,6 +18,7 @@ module.exports = {
   siteMetadata: {
     title: 'Malak Tayeh',
     author: 'Malak Tayeh',
+    authorFirstName: 'Malak',
     linkedIn: 'https://www.linkedin.com/in/malaktayeh/',
     instagram: 'http://instagram.com/tenshi.jpeg',
     twitter: 'https://twitter.com/',

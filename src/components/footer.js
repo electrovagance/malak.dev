@@ -5,13 +5,13 @@ import footerStyles from './footer.module.scss'
 const Footer = () => {
     const data = useStaticQuery(graphql`
     query {
-        site {
-          siteMetadata {
-            title
-          }
+      site {
+        siteMetadata {
+          authorFirstName
         }
       }
-    `)
+    }
+  `)
 
     return (
         <footer className={footerStyles.footer}>
@@ -21,7 +21,7 @@ const Footer = () => {
                 href="https://www.gatsbyjs.org/"
                 rel="noopener noreferrer">
                      Gatsby</a>
-                 . {data.site.siteMetadata.title} © 2020.</p>
+                 . {data.site.siteMetadata.authorFirstName} © 2020.</p>
         </footer>
     )
 }
