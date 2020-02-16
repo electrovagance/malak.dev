@@ -6,7 +6,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 export const query = graphql`
     query ($slug: String!) {
-        contentfulBlogPost(slug: {eq: $slug}) {
+        contentfulBlogPosts(slug: {eq: $slug}) {
             title
             publishedDate(formatString: "MMMM Do, YYYY")
             body {
@@ -28,11 +28,11 @@ const Blog = (props) => {
 
     return (
         <Layout>
-            <Head title={props.data.contentfulBlogPost.title} />
-            <h1>{props.data.contentfulBlogPost.title}</h1>
-            <p>{props.data.contentfulBlogPost.publishedDate}</p>
+            <Head title={props.data.contentfulBlogPosts.title} />
+            <h1>{props.data.contentfulBlogPosts.title}</h1>
+            <p>{props.data.contentfulBlogPosts.publishedDate}</p>
             {
-                documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
+                documentToReactComponents(props.data.contentfulBlogPosts.body.json, options)
             }
         </Layout>
     )
