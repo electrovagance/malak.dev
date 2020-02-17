@@ -21,7 +21,7 @@ const AboutPage = () => {
 
                     <h3>Social Media</h3>
                     <span>
-                        <IconContext.Provider value={{ size: "3rem", className: aboutStyles.socialMedia }}>
+                        <IconContext.Provider value={{ size: "2.5rem", className: aboutStyles.socialMedia }}>
                             <a 
                                 href="https://twitter.com/electrovagance" 
                                 target="_blank" 
