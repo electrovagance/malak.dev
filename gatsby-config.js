@@ -66,14 +66,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Source Sans Pro', 'Merriweather Sans', 'Crimson Text']
-        }
-      }
-    }
+    'gatsby-plugin-sharp'
   ]
 }
