@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from './navigation'
 import Footer from './footer'
+import "typeface-average-sans"
+import "typeface-alegreya-sans"
+import "typeface-clear-sans"
 import '../index.scss'
 import layoutStyles from './styles/layout.module.scss'
 
