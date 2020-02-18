@@ -8,22 +8,18 @@ const ContactForm = () => {
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
                 <div className={contactFormStyles.contactForm}>
-                    <label htmlFor="name">First name:</label>
-                    <input type="text" name="first name" id="firstName" placeholder="Please enter your first name." required />
-                </div>
-                <div className={contactFormStyles.contactForm}>
-                    <label htmlFor="name">Last name:</label>
-                    <input type="text" name="last name" id="lastName" placeholder="Your last name is also required." required />
+                    <label htmlFor="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your name." required />
                 </div>
                 <div className={contactFormStyles.contactForm} >  
                     <label htmlFor="email">Email:</label>
                     <input type="email" name="email" required placeholder="Your email address, please." />
                 </div>
-                <div className={contactFormStyles.contactFormMessage}>
+                <div className={contactFormStyles.contactForm}>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" id="formMessage" rows="6" placeholder="What would you like to share with me? :)" required />
+                    <textarea name="message" rows="2" placeholder="What would you like to share with me? :)" required ></textarea>
                 </div>
-                <br/>
+                <br/> 
                 <div className="actions" >
                     <div className={contactFormStyles.alignButtons}>
                         <button type="reset" value="Clear">Clear</button>

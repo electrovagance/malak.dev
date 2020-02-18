@@ -1,9 +1,11 @@
 // SIMPLE CSS RESET
-
+// \* { 
+//   outline: 1px solid red; 
+// }
 html {
   font-family: "Clear Sans", "Average Sans", "Alegreya Sans", "sans serif";
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 18px;
 }
   
 *, *:before, *:after {
