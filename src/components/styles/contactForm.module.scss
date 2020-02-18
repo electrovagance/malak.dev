@@ -1,0 +1,80 @@
+.form {
+    padding: 1.5rem;
+    background-color: #fafafa;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0 0.5rem 0 0;
+    gap: .5rem;
+
+    label {
+        margin: 1rem 0 0 0;
+    }
+
+    input {
+        padding: 0.6rem .2rem;
+    }
+}
+
+.contactFormMessage {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0 0.5rem 0 0;
+    gap: .5rem;
+
+    label {
+        margin: 1rem 0 0 0;
+    }
+
+    input {
+        padding: 0.2rem;
+    }
+}
+
+.alignButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: .5rem 2rem;
+}
+
+input:required:invalid, input:focus:invalid {
+    /* insert your own styles for invalid form input */
+    box-shadow: none;
+  }
+
+@media only screen and (min-width: 500px) {
+    .contactForm {
+        margin: 0.5rem 0.2rem;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+
+        input {
+            padding: 0.3rem .2rem;
+        }
+        label {
+            align-self: center;
+        }
+    }
+
+    .contactFormMessage {
+        margin: 0.5rem 0.2rem;
+    }
+
+    .alignButtons {
+        justify-content: flex-end;
+    }
+
+    button[type="submit"] {
+        margin: 0 0 0 3rem;
+    }
+
+    
+}
