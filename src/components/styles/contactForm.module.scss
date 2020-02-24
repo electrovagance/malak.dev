@@ -1,3 +1,10 @@
+$gunmetal: rgba(45, 49, 66, 1);
+$black-coral: rgba(79, 93, 117, 1);
+$silver: rgba(191, 192, 192, 1);
+$white: rgba(255, 255, 255, 1);
+$light-red-ochre: rgba(239, 131, 84, 1);
+$light-red-ochre-transparent: rgba(239, 131, 84, 0.1);
+
 .form {
     padding: 1.5rem;
     background-color: #fafafa;
@@ -15,7 +22,25 @@
 
     input {
         padding: 0.6rem .2rem;
+        border: 1px solid $silver;
+        border-radius: 2px;
     }
+
+    input:focus {
+        background-color: $light-red-ochre-transparent;
+        outline-color: coral;
+    }
+
+    textarea {
+        border: 1px solid $silver;
+        border-radius: 2px;
+    }
+
+    textarea:focus {
+        background-color: $light-red-ochre-transparent;
+        outline-color: coral;
+    }
+
 }
 
 .alignButtons {
@@ -27,7 +52,19 @@
 
 button {
     padding: .5rem 2rem;
+    color: white;
+    background-color: $silver;
+    border: $black-coral;
+    border-radius: 2px;
+    cursor: pointer;
 }
+
+button:focus {
+    color: $black-coral;
+    background-color: $light-red-ochre-transparent;
+    outline-color: $light-red-ochre;
+}
+
 
 @media only screen and (min-width: 500px) {
     .contactForm {
